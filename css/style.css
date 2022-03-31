@@ -1,0 +1,102 @@
+body {
+    background-color: #11131a;
+}
+
+.container {
+    width: 25%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-pic {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.search-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+#search {
+    width: 100%;
+    border: 3px solid #eab55a;
+    border-right: none;
+    padding: 8px;
+    outline: none;
+    color: #a1a1a1;
+}
+
+.search-btn {
+    width: 40px;
+    border: 1px solid #eab55a;
+    background: #eab55a;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-player {
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 300%);
+    color: white;
+}
+
+.player-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+#name {
+    width: 100%;
+    text-align: center;
+}
+
+#level {
+    width: 100%;
+    text-align: center;
+}
+
+#tier {
+    outline: none;
+    position: relative;
+    display: flex;
+}
+
+#icon {
+    outline: none;
+    position: relative;
+    display: flex;
+    border: 2px solid #eab55a;
+}
+
+#win {
+    width: 100%;
+    text-align: center;
+}
+
+#lose {
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 60%;
+    }
+
+    .container-player {
+        width: 60%;
+    }
+}
